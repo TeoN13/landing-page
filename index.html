@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Landing page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Workbench:BLED,SCAN@10,-33&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id='navbar'>
+  <ul>
+    <li><a id='link-1' href='#section-1'>Intro</a></li>
+    <li><a id='link-2' href='#section-2'>About</a></li>
+    <li><a id='link-3' href='#section-3'>Something else</a></li>
+  </ul>
+</nav>
+<main>
+  <div id='section-1'>
+    <div id='title' class='workbench-title animate-title'>Lorem ipsum</div>
+  </div>
+  <div id='section-2'>
+    <div id='card-wheel'>
+      <div class='arrow' id='arrow-left'><svg viewBox="0 0 256 512" title="angle-left">
+          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+        </svg></div>
+      <div id='card-container'>
+        <div class='card' id='card-1'></div>
+        <div class='card' id='card-2'></div>
+        <div class='card' id='card-3'></div>
+        <div class='card' id='card-4'></div>
+        <div class='card' id='card-5'></div>
+        <div class='card' id='card-6'></div>
+      </div>
+      <div class='arrow' id='arrow-right'><svg viewBox="0 0 256 512" title="angle-right">
+          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+        </svg></div>
+
+    </div>
+  </div>
+  <div id='section-3'>
+    <div id='details-container'>
+      <div class='details reveal slide-left' id='details-big'></div>
+      <div class='details reveal slide-right' id='details-small-1'></div>
+      <div class='details reveal slide-right' id='details-small-2'></div>
+    </div>
+
+  </div>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
